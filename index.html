@@ -1,179 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="GiveHope Charity Website - Empowering communities through donations and volunteering."
-    />
-    <meta
-      name="keywords"
-      content="charity, non-profit, donation, volunteering"
-    />
-    <meta name="author" content="Your Name" />
-    <title>GiveHope Charity</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Char-E-T - Making a Difference</title>
+
+    <!-- <link rel="stylesheet" href="/normalize.css"> -->
+    <!-- <link rel="stylesheet" href="/all.min.css"> -->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!--Start Header -->
     <header>
-      <nav class="navbar">
-        <div class="container">
-          <img class="logo" src="./1.png" alt="" />
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#causes">events</a></li>
-            <li><a href="#causes">services</a></li>
-            <li><a href="#contact">Contact US</a></li>
-          </ul>
-          <div class="button">
-            <a href="#donate" class="btn btn-primary">Donate Now</a>
-            <a href="#"
-              ><i
-                class="userIcon fa-solid fa-user fa-2xl"
-                style="color: #6ea343"
-              >
-              </i
-            ></a>
-          </div>
-        </div>
-      </nav>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home"><img src="./logo.png" alt="Char-E-T Logo" class="logo-img"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-trigger">Our Activities <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/projects">Projects</a></li>
+                        <li><a href="/events">Events</a></li>
+                    </ul>
+                </li>
+                <li><a href="/services">Services</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <button class="btn donate-btn">Donate</button>
+                <button class="btn volunteer-btn">Volunteer</button>
+                <div class="profile-dropdown">
+                    <i class="fas fa-user profile-icon"></i>
+                    <div class="profile-dropdown-content">
+                        <a href="/login">Login</a>
+                        <a href="/register">Create Account</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
 
-    <section id="hero" class="hero">
-      <div class="container">
-        <h1>Empowering Communities Through Giving</h1>
-        <p>Join us in making a difference in the lives of those in need.</p>
-        <a href="#donate" class="btn btn-secondary">Get Involved</a>
-      </div>
-    </section>
+    <main>
+        <!-- Start typing here  -->
+    </main>
 
-    <section id="about" class="about">
-      <div class="container">
-        <h2>About Us</h2>
-        <p>
-          We are a non-profit organization focused on providing education,
-          healthcare, and food security to underserved communities worldwide.
-        </p>
-      </div>
-    </section>
-
-    <section id="causes" class="causes">
-      <div class="container">
-        <h2>Our Causes</h2>
-        <div class="cause-list">
-          <div class="cause">
-            <h3>Education</h3>
-            <p>Providing quality education to underprivileged children.</p>
-          </div>
-          <div class="cause">
-            <h3>Healthcare</h3>
-            <p>Improving access to healthcare in rural communities.</p>
-          </div>
-          <div class="cause">
-            <h3>Food Security</h3>
-            <p>Ensuring every family has access to nutritious food.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id=" events" class="event">
-      <div class="eventHead">
-        <h3>Helping hands</h3>
-        <h1>
-          We're on a mission to protect our beloved <span>environment! </span>
-        </h1>
-        <p>
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-          officia deserunt mollit anim id est laborum.
-        </p>
-      </div>
-      <div class="card">
-        <img src="./9.jpg" alt="#" />
-        <div class="cardtxt">
-          <h1>Corporate Eco Day <span>Event</span></h1>
-          <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-        <button>Join</button>
-      </div>
-      <div class="card">
-        <img src="./8.jpg" alt="#" />
-        <div class="cardtxt">
-          <h1>Lets fight to <span>Save animals</span></h1>
-          <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-        <button>Join</button>
-      </div>
-      <div class="card">
-        <img src="./2.jpg" alt="#" />
-        <div class="cardtxt">
-          <h1>Corporate Eco Day <span>Event</span></h1>
-          <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-        <button>Join</button>
-      </div>
-      <div class="card">
-        <img src="./3.jpg" alt="#" />
-        <div class="cardtxt">
-          <h1>Standup for <span>Racial Justice</span> in nature</h1>
-          <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-        <button>Join</button>
-      </div>
-    </section>
-
-    <section id="contact" class="contact">
-      <div class="container">
-        <h2>Contact Us</h2>
-        <form action="#" method="POST">
-          <input type="text" name="name" placeholder="Your Name" required />
-          <input type="email" name="email" placeholder="Your Email" required />
-          <textarea
-            name="message"
-            placeholder="Your Message"
-            required
-          ></textarea>
-          <button type="submit" class="btn btn-primary">Send Message</button>
-        </form>
-      </div>
-    </section>
+    <!-- Start footer -->
 
     <footer>
-      <div class="container">
-        <p>&copy; 2024 GiveHope. All Rights Reserved.</p>
-      </div>
+        <div class="footer-content">
+            <div class="footer-info">
+                <img src="./logo.png" alt="Char-E-T Logo" class="footer-logo">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Charity Street, City, Country</p>
+                    <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                    <p><i class="fas fa-envelope"></i> info@char-e-t.org</p>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <label for="name"><h3>Send us a Message</h3></label>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn send-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Char-E-T. All rights reserved.</p>
+        </div>
     </footer>
-  </body>
-  <script>
-    document.addEventListener("scroll", () => {
-      const header = document.querySelector("header");
-      if (window.scrollY > 0) {
-        header.classList.add("scrolled");
-      } else {
-        header.classList.remove("scrolled");
-      }
-    });
-  </script>
+    <script src="/main.js"></script>
+</body>
 </html>
