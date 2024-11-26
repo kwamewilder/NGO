@@ -9,7 +9,8 @@
     --body: #fff;
     --button1:#4CAF50;
     --button2:#2196F3;
-    --links: #4CAF50;
+    --linksOnHover: #4CAF50;
+    --icons : #619464;
     --wbgText: #333;
     --dbgText: white;
 
@@ -55,7 +56,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: var(--links);
+    color: var(--linksOnHover);
 }
 
 /* Dropdown styles */
@@ -169,7 +170,7 @@ main {
 /* Footer styles */
 footer {
     background-color: var(--wbgText);
-    color: var(--body);
+    color: var(--dbgText);
     width: 100%;
     margin-top: auto;
     padding-top: 3rem;
@@ -209,7 +210,7 @@ footer {
 
 .contact-info i {
     margin-right: 0.5rem;
-    color: var(--links);
+    color: var(--icons);
 }
 
 /* Contact form styles */
@@ -243,7 +244,7 @@ footer {
 
 .send-btn {
     background-color: var(--button1);
-    color: var(--body);
+    color: var(--dbgText);
     width: 100%;
 }
 
