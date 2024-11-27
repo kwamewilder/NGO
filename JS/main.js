@@ -1,9 +1,9 @@
-//Keep it on top 
+//Keep it on top
 //header and footer for all pages
 //make sure to link this file to your page to have the header and footer
 class SpecialHeader extends HTMLElement {
-    connectedCallback(){
-        this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
         <header>
             <nav class="navbar">
             <div class="logo">
@@ -26,7 +26,7 @@ class SpecialHeader extends HTMLElement {
                     <a href="donation.html"><button  class="btn donate-btn">Donate</button></a>
                     <a href="volunteer.html"><button class="btn volunteer-btn">Volunteer</button></a>
                     <div class="profile-dropdown">
-                        <i class="fas fa-user profile-icon"></i>
+                        <a href="profile.html"><i class="fas fa-user profile-icon"></i></a>
                         <div class="profile-dropdown-content">
                             <a href="login.html">Login</a>
                             <a href="create_acc.html">Create Account</a>
@@ -34,12 +34,12 @@ class SpecialHeader extends HTMLElement {
                     </div>
                 </div>
             </nav>
-        </header>`
-    }
+        </header>`;
+  }
 }
 class SpecialFooter extends HTMLElement {
-    connectedCallback(){
-        this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
         <footer>
         <div class="footer-content">
             <div class="footer-info">
@@ -71,29 +71,27 @@ class SpecialFooter extends HTMLElement {
         <div class="footer-bottom">
             <p>&copy; 2024 Char-E-T. All rights reserved.</p>
             </div>
-    </footer>`
-    }
+    </footer>`;
+  }
 }
 
-customElements.define('our-header' , SpecialHeader)
-customElements.define('our-footer' , SpecialFooter)
-
-
+customElements.define("our-header", SpecialHeader);
+customElements.define("our-footer", SpecialFooter);
 
 // Handle contact form submission in footer
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    
-    // const name = document.getElementById('name').value;
-    // const email = document.getElementById('email').value;
-    // const message = document.getElementById('message').value;
-    
-    // // Here you would typically send this data to your server
-    // console.log('Form submitted:', { name, email, message });
-    
-    // // Clear the form
-    this.reset();
-    
-    // Show success message
-    alert('Thank you for your message! We will get back to you soon.');
+document.getElementById("contactForm").addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  // const name = document.getElementById('name').value;
+  // const email = document.getElementById('email').value;
+  // const message = document.getElementById('message').value;
+
+  // // Here you would typically send this data to your server
+  // console.log('Form submitted:', { name, email, message });
+
+  // // Clear the form
+  this.reset();
+
+  // Show success message
+  alert("Thank you for your message! We will get back to you soon.");
 });
