@@ -30,6 +30,7 @@ class SpecialHeader extends HTMLElement {
                         <div class="profile-dropdown-content">
                             <a href="login.html">Login</a>
                             <a href="create_acc.html">Create Account</a>
+                            <a href="admin.html">Admin page</a>
                         </div>
                     </div>
                 </div>
