@@ -1,20 +1,31 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+}
+
 .login-box {
+  background-color: white;
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 440px;
   height: 480px;
-  padding: 30px;
-  margin-left: 80%;
-  border: none;
+  padding: 40px;
+  border: 1px solid #fff;
+  border-radius: 5px;
   box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.05);
-  margin-bottom: 40%;
-  margin-top: 30%;
 }
+
 .login-header {
   text-align: center;
   margin: 20px 0 40px 0;
 }
+
 .login-header header {
   color: #4caf50;
   font-size: 30px;
@@ -54,12 +65,7 @@ section {
 #check {
   margin-right: 10px;
 }
-a {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
+
 section a {
   color: #222;
 }
