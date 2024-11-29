@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
     }
+    h1{
+        text-align: center;
+    }
 
     :root {
     --body: #fff;
@@ -412,3 +415,21 @@
         flex-direction: column;
     }
     }
+    .container{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .item-container{
+        position: relative;
+        margin: 24px;
+        width: 320px;
+        height: 570px;
+        overflow: hidden;
+        background-color: #fff;
+        box-shadow: 0 0 30px 5px rgb(0, 0, 0,0.15);
+        cursor: pointer;
+    }
+    
