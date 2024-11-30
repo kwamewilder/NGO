@@ -23,12 +23,3 @@ Our mission is to make giving and receiving help simple and impactful. With **Ch
 - **Contact Page**: A form for inquiries and feedback to improve our outreach.  
 
 ---
-
-## 📂 Project Structure  
-```plaintext
-/
-├── index.html          # Main webpage
-├── styles/             # CSS files for styling
-├── scripts/            # JavaScript files for interactivity
-├── images/             # Image assets including the logo
-└── README.md           # Project documentation (this file)
