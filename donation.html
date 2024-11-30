@@ -1,27 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Char-E-T - Making a Difference</title>
-    <!-- Main css for header and footer and colors -->
-    <link rel="stylesheet" href="./CSS/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  </head>
-  <body>
-    <!--The header -->
-    <our-header></our-header>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/donate.css">
+</head>
+<body>
+  <our-header style="width: 100%;"></our-header>
+<main>
+    <div class="donation-container">
+        <h1>Donate Online</h1>
+        <p>Support our causes and make a difference today.</p>
+        <form action="/submit-donation" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+            <div class="form-group">
+                <label>Donation Type</label>
+                <div class="radio-group">
+                    <label>
+                        <input type="radio" name="donation_type" value="domestic" checked> Domestic
+                    </label>
+                    <label>
+                        <input type="radio" name="donation_type" value="international"> International
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="cause">Cause</label>
+                <select id="cause" name="cause" required>
+                    <option value="" disabled selected>Select a cause</option>
+                    <option value="education">Education Support</option>
+                    <option value="healthcare">Healthcare Services</option>
+                    <option value="food">Feeding the Hungry</option>
+                    <option value="emergency">Emergency Relief</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="amount">Donation Amount (EGP)</label>
+                <input type="number" id="amount" name="amount" placeholder="Enter your donation amount" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Additional Message (Optional)</label>
+                <textarea id="message" name="message" rows="3" placeholder="Write a message if you like"></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Donate Now</button>
+        </form>
+    </div>
+  </main>
 
-    <main>
-      <!-- Your main content goes here  -->
-    </main>
+    <our-footer style="width: 100%;"></our-footer>
+<script src="./JS/main.js"></script>
+</body>
 
-    <!-- The footer  -->
-    <our-footer></our-footer>
-
-    <!-- main js file for footer and header  -->
-    <script src="./JS/main.js"></script>
-  </body>
 </html>
