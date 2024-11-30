@@ -49,7 +49,7 @@ const barChartOptions = {
     show: false,
   },
   xaxis: {
-    categories: ["Laptop", "Phone", "Monitor", "Headphones", "Camera"],
+    categories: ["Water", "Roof", "Mosque", "Kiosk", "Shelter"],
   },
   yaxis: {
     title: {
@@ -68,11 +68,11 @@ barChart.render();
 const areaChartOptions = {
   series: [
     {
-      name: "Purchase Orders",
+      name: "Donations in",
       data: [31, 40, 28, 51, 42, 109, 100],
     },
     {
-      name: "Sales Orders",
+      name: "Beneficiaries",
       data: [11, 32, 45, 32, 34, 52, 41],
     },
   ],
@@ -85,7 +85,7 @@ const areaChartOptions = {
   },
   colors: ["#4f35a1", "#246dec"],
   dataLabels: {
-    enabled: false,
+    enabled: true,
   },
   stroke: {
     curve: "smooth",
@@ -97,13 +97,13 @@ const areaChartOptions = {
   yaxis: [
     {
       title: {
-        text: "Purchase Orders",
+        text: "Donations in",
       },
     },
     {
       opposite: true,
       title: {
-        text: "Sales Orders",
+        text: "Beneficiaries",
       },
     },
   ],

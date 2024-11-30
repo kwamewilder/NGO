@@ -11,8 +11,10 @@
       rel="stylesheet" />
 
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="./CSS/style.css" />
     <link rel="stylesheet" href="./CSS/admin.css" />
   </head>
+
   <body>
     <div class="grid-container">
       <!-- Header -->
@@ -21,15 +23,16 @@
           <span class="material-icons-outlined">menu</span>
         </div>
         <div class="header-left">
-          <span class="material-icons-outlined">search</span>
+          <a href="#"><span class="material-icons-outlined">search</span></a>
         </div>
+
         <div class="header-right">
           <a href="index.html"
             ><span class="material-icons-outlined"> home </span></a
           >
-          <span class="material-icons-outlined">notifications</span>
-          <span class="material-icons-outlined">email</span>
-          <span class="material-icons-outlined">account_circle</span>
+          <a><span class="material-icons-outlined">notifications</span></a>
+          <a><span class="material-icons-outlined">email</span></a>
+          <a><span class="material-icons-outlined">account_circle</span></a>
         </div>
       </header>
       <!-- End Header -->
@@ -38,8 +41,8 @@
       <aside id="sidebar">
         <div class="sidebar-title">
           <div class="sidebar-brand">
-            <span class="material-icons-outlined">inventory</span> Bob's
-            Inventory
+            <span class="material-icons-outlined">inventory</span> Char-E-T
+            Panel
           </div>
           <span
             class="material-icons-outlined clickable"
@@ -56,24 +59,24 @@
           </li>
           <li class="sidebar-list-item">
             <a href="#" target="_blank">
-              <span class="material-icons-outlined">inventory_2</span> Products
-            </a>
-          </li>
-          <li class="sidebar-list-item">
-            <a href="#" target="_blank">
               <span class="material-icons-outlined">fact_check</span> Inventory
             </a>
           </li>
           <li class="sidebar-list-item">
             <a href="#" target="_blank">
-              <span class="material-icons-outlined">add_shopping_cart</span>
-              Purchase Orders
+              <span class="material-icons-outlined">inventory_2</span> Donation
+              management
             </a>
           </li>
           <li class="sidebar-list-item">
             <a href="#" target="_blank">
-              <span class="material-icons-outlined">shopping_cart</span> Sales
-              Orders
+              <span class="material-icons-outlined">groups</span> Applied
+              Volunteers
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="#" target="_blank">
+              <span class="material-icons-outlined">campaign</span> Activities
             </a>
           </li>
           <li class="sidebar-list-item">
@@ -99,7 +102,7 @@
         <div class="main-cards">
           <div class="card">
             <div class="card-inner">
-              <p class="text-primary">PRODUCTS</p>
+              <p class="text-primary">DONATIONS</p>
               <span class="material-icons-outlined text-blue">inventory_2</span>
             </div>
             <span class="text-primary font-weight-bold">249</span>
@@ -107,9 +110,9 @@
 
           <div class="card">
             <div class="card-inner">
-              <p class="text-primary">PURCHASE ORDERS</p>
-              <span class="material-icons-outlined text-orange"
-                >add_shopping_cart</span
+              <p class="text-primary">VOLUNTEERS</p>
+              <span class="material-icons-outlined text-orange">
+                person_add</span
               >
             </div>
             <span class="text-primary font-weight-bold">83</span>
@@ -117,9 +120,9 @@
 
           <div class="card">
             <div class="card-inner">
-              <p class="text-primary">SALES ORDERS</p>
+              <p class="text-primary">BENEFICIARIES</p>
               <span class="material-icons-outlined text-green"
-                >shopping_cart</span
+                >diversity_3</span
               >
             </div>
             <span class="text-primary font-weight-bold">79</span>
@@ -138,12 +141,12 @@
 
         <div class="charts">
           <div class="charts-card">
-            <p class="chart-title">Top 5 Products</p>
+            <p class="chart-title">Top 5 Projects</p>
             <div id="bar-chart"></div>
           </div>
 
           <div class="charts-card">
-            <p class="chart-title">Purchase and Sales Orders</p>
+            <p class="chart-title">Donations and Beneficiaries</p>
             <div id="area-chart"></div>
           </div>
         </div>
