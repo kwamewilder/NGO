@@ -23,3 +23,24 @@ Our mission is to make giving and receiving help simple and impactful. With **Ch
 - **Contact Page**: A form for inquiries and feedback to improve our outreach.  
 
 ---
+
+## 💻 Technologies Used  
+- **HTML5**  
+- **CSS3**  
+- **JavaScript**  
+---
+
+This project was developed as part of our **System Analysis and Design** course. It aims to provide an efficient and user-friendly platform for managing charitable activities, donations, and community support.
+
+## Contributors
+
+We would like to acknowledge the hard work and dedication of our team members who contributed to this project:
+
+- **Abdelrahman Nader**  
+- **Karim Omar**  
+- **Ganna Attia**  
+- **Sama Khaled**  
+- **Rawan Hossam**  
+- **Mariam Hamada**
+
+Thank you all for your collaboration and commitment to making this project a success!
