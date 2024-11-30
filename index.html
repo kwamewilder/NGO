@@ -5,25 +5,938 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Char-E-T - Making a Difference</title>
     <!-- Main css for header and footer and colors -->
-    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/home.css" />
 
     <!-- Font awesome for icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Oswald:wght@600&display=swap"
+      rel="stylesheet" />
   </head>
   <body>
     <!--The header -->
     <our-header></our-header>
 
     <main>
-      <!-- Your main content goes here  -->
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero" id="home">
+          <div class="container">
+            <p class="section-subtitle">
+              <img
+                src="./Media/home/subtitle-img-white.png"
+                width="32"
+                height="7"
+                alt="Wavy line" />
+
+              <span>Welcome to charity</span>
+            </p>
+
+            <h2 class="h1 hero-title">
+              Give Love for Saving <strong>The Needy</strong>
+            </h2>
+
+            <p class="hero-text">
+              It is important to follow the student's teaching, but this time
+              they fall this way with some great work and pain.
+            </p>
+
+            <button class="btn btn-primary">
+              <span>Donation</span>
+
+              <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+        </section>
+
+        <!-- 
+        - #FEATURES
+      -->
+
+        <section class="section features">
+          <div class="container">
+            <ul class="features-list">
+              <li class="features-item">
+                <div class="item-icon">
+                  <ion-icon name="shield-checkmark-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h4 item-title">Safe Shelter</h3>
+
+                  <p class="item-text">
+                    Sit amet consecte adiscine eiusm temor ultrices.
+                  </p>
+                </div>
+              </li>
+
+              <li class="features-item">
+                <div class="item-icon">
+                  <ion-icon name="water-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h4 item-title">Safe Water</h3>
+
+                  <p class="item-text">
+                    Sit amet consecte adiscine eiusm temor ultrices.
+                  </p>
+                </div>
+              </li>
+
+              <li class="features-item">
+                <div class="item-icon">
+                  <ion-icon name="leaf-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h4 item-title">Ecology Save</h3>
+
+                  <p class="item-text">
+                    Sit amet consecte adiscine eiusm temor ultrices.
+                  </p>
+                </div>
+              </li>
+
+              <li class="features-item">
+                <div class="item-icon">
+                  <ion-icon name="snow-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h4 item-title">Environment</h3>
+
+                  <p class="item-text">
+                    Sit amet consecte adiscine eiusm temor ultrices.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section class="section about" id="about">
+          <div class="container">
+            <div class="about-banner">
+              <h2 class="deco-title">About Us</h2>
+
+              <img
+                src="./Media/home/deco-img.png"
+                width="58"
+                height="261"
+                alt=""
+                class="deco-img" />
+
+              <div class="banner-row">
+                <div class="banner-col">
+                  <img
+                    src="./Media/home/images.jfif"
+                    width="315"
+                    height="380"
+                    loading="lazy"
+                    alt="Tiger"
+                    class="about-img w-100" />
+
+                  <img
+                    src="./Media/home/pexels-pixabay-208512.jpg"
+                    width="377"
+                    height="250"
+                    loading="lazy"
+                    alt="Panda"
+                    class="about-img about-img-2 w-100" />
+                </div>
+
+                <div class="banner-col">
+                  <img
+                    src="./Media/home/download.jfif"
+                    width="250"
+                    height="277"
+                    loading="lazy"
+                    alt="Elephant"
+                    class="about-img about-img-3 w-100" />
+
+                  <img
+                    src="./Media/home/gettyimages-1368958566-612x612.jpg"
+                    width="315"
+                    height="380"
+                    loading="lazy"
+                    alt="Deer"
+                    class="about-img w-100" />
+                </div>
+              </div>
+            </div>
+
+            <div class="about-content">
+              <p class="section-subtitle">
+                <img
+                  src="./Media/home/subtitle-img-green.png"
+                  width="32"
+                  height="7"
+                  alt="Wavy line" />
+
+                <span>Why Choose Us</span>
+              </p>
+
+              <h2 class="h2 section-title">
+                Rise Your Hand to Save <strong>The Needy</strong>
+              </h2>
+
+              <ul class="tab-nav">
+                <li>
+                  <button class="tab-btn active">Our Mission</button>
+                </li>
+
+                <li>
+                  <button class="tab-btn">Our Vision</button>
+                </li>
+
+                <li>
+                  <button class="tab-btn">Next Plan</button>
+                </li>
+              </ul>
+
+              <div class="tab-content">
+                <p class="section-text">
+                  But I must explain to you how all this mistaken denouncing
+                  pleasure and praising pain was born and I will give you a
+                  complete account of the system expoundmaster
+                </p>
+
+                <ul class="tab-list">
+                  <li class="tab-item">
+                    <div class="item-icon">
+                      <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+
+                    <p class="tab-text">Charity For Foods</p>
+                  </li>
+
+                  <li class="tab-item">
+                    <div class="item-icon">
+                      <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+
+                    <p class="tab-text">Charity For Clothes</p>
+                  </li>
+
+                  <li class="tab-item">
+                    <div class="item-icon">
+                      <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+
+                    <p class="tab-text">Charity For Water</p>
+                  </li>
+
+                  <li class="tab-item">
+                    <div class="item-icon">
+                      <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+
+                    <p class="tab-text">Charity For Medical</p>
+                  </li>
+                </ul>
+
+                <button class="btn btn-secondary">
+                  <span>Learn More Us</span>
+
+                  <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #CTA
+      -->
+
+        <section class="section cta">
+          <div class="container">
+            <div class="cta-content">
+              <h2 class="h2 section-title">324+ Trusted Global Partners</h2>
+
+              <button class="btn btn-outline">
+                <span>Become a Partner</span>
+
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </button>
+            </div>
+
+            <figure class="cta-banner">
+              <img
+                src="./Media/home/download (1).jpg"
+                width="520"
+                height="228"
+                loading="lazy"
+                alt="Fox"
+                class="img-cover" />
+            </figure>
+          </div>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section
+          class="section service"
+          id="service"
+          style="background-image: url('./Media/home/service-map.png')">
+          <div class="container">
+            <p class="section-subtitle">
+              <img
+                src="./Media/home/subtitle-img-green.png"
+                width="32"
+                height="7"
+                alt="Wavy line" />
+
+              <span>What We Do</span>
+            </p>
+
+            <h2 class="h2 section-title">
+              We Work Differently to <strong>keep The World Safe</strong>
+            </h2>
+
+            <ul class="service-list">
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="medkit-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Health And Medical</h3>
+
+                  <p class="card-text">
+                    Providing vaccinations and healthcare services in
+                    underserved areas.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span>Read More</span>
+
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="home-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Community Development</h3>
+
+                  <p class="card-text">
+                    Creating clean water in rural communities.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span>Read More</span>
+
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="hand-left-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Humanitarian Aid</h3>
+
+                  <p class="card-text">
+                    Providing food, shelter, and medical assistance during
+                    natural disasters.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span>Read More</span>
+
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="shield-checkmark-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Education</h3>
+
+                  <p class="card-text">
+                    Building schools and libraries in rural or low-income areas.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span>Read More</span>
+
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #DONATE
+      -->
+
+        <section class="section donate" id="donate">
+          <div class="container">
+            <ul class="donate-list">
+              <li>
+                <div class="donate-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./Media/home/download (2).png"
+                      width="500"
+                      height="325"
+                      loading="lazy"
+                      alt="Elephant"
+                      class="img-cover" />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="progress-wrapper">
+                      <p class="progress-text">
+                        <span>Raised</span>
+
+                        <data value="256">$256</data>
+                      </p>
+
+                      <data class="progress-value" value="83">83%</data>
+                    </div>
+
+                    <div class="progress-box">
+                      <div class="progress"></div>
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      Raise your hand to build houses and water connections
+                    </h3>
+
+                    <div class="card-wrapper">
+                      <p class="card-wrapper-text">
+                        <span>Goal</span>
+
+                        <data class="green" value="34562">$34562</data>
+                      </p>
+
+                      <p class="card-wrapper-text">
+                        <span>Raise</span>
+
+                        <data class="yellow" value="562">$562</data>
+                      </p>
+
+                      <p class="card-wrapper-text">
+                        <span>To Go</span>
+
+                        <data class="cyan" value="864">$864</data>
+                      </p>
+                    </div>
+
+                    <button class="btn btn-secondary">
+                      <span>Donation</span>
+
+                      <ion-icon
+                        name="heart-outline"
+                        aria-hidden="true"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="donate-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./Media/home/images (2).png"
+                      width="500"
+                      height="325"
+                      loading="lazy"
+                      alt="connect_water"
+                      class="img-cover" />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="progress-wrapper">
+                      <p class="progress-text">
+                        <span>Raised</span>
+
+                        <data value="256">$126</data>
+                      </p>
+
+                      <data class="progress-value" value="83">80%</data>
+                    </div>
+
+                    <div class="progress-box">
+                      <div class="progress"></div>
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      Raise your hand to distribute meals
+                    </h3>
+
+                    <div class="card-wrapper">
+                      <p class="card-wrapper-text">
+                        <span>Goal</span>
+
+                        <data class="green" value="34562">$31162</data>
+                      </p>
+
+                      <p class="card-wrapper-text">
+                        <span>Raise</span>
+
+                        <data class="yellow" value="562">$262</data>
+                      </p>
+
+                      <p class="card-wrapper-text">
+                        <span>To Go</span>
+
+                        <data class="cyan" value="864">$364</data>
+                      </p>
+                    </div>
+
+                    <button class="btn btn-secondary">
+                      <span>Donation</span>
+
+                      <ion-icon
+                        name="heart-outline"
+                        aria-hidden="true"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="donate-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./Media/home/download (3).png"
+                      width="500"
+                      height="325"
+                      loading="lazy"
+                      alt="Elephant"
+                      class="img-cover" />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="progress-wrapper">
+                      <p class="progress-text">
+                        <span>Raised</span>
+
+                        <data value="256">$256</data>
+                      </p>
+
+                      <data class="progress-value" value="83">76%</data>
+                    </div>
+
+                    <div class="progress-box">
+                      <div class="progress"></div>
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      Raise your hand to save a life
+                    </h3>
+
+                    <div class="card-wrapper">
+                      <p class="card-wrapper-text">
+                        <span>Goal</span>
+
+                        <data class="green" value="34562">$4562</data>
+                      </p>
+
+                      <p class="card-wrapper-text">
+                        <span>Raise</span>
+
+                        <data class="yellow" value="562">$525</data>
+                      </p>
+
+                      <p class="card-wrapper-text">
+                        <span>To Go</span>
+
+                        <data class="cyan" value="864">$764</data>
+                      </p>
+                    </div>
+
+                    <button class="btn btn-secondary">
+                      <span>Donation</span>
+
+                      <ion-icon
+                        name="heart-outline"
+                        aria-hidden="true"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="donate-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./Media/home/images (4).png"
+                      width="500"
+                      height="290"
+                      loading="lazy"
+                      alt="Elephant"
+                      class="img-cover" />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="progress-wrapper">
+                      <p class="progress-text">
+                        <span>Raised</span>
+
+                        <data value="256">$256</data>
+                      </p>
+
+                      <data class="progress-value" value="83">79%</data>
+                    </div>
+
+                    <div class="progress-box">
+                      <div class="progress"></div>
+                    </div>
+
+                    <h3 class="h3 card-title">Raise your hand to warm up</h3>
+
+                    <div class="card-wrapper">
+                      <p class="card-wrapper-text">
+                        <span>Goal</span>
+
+                        <data class="green" value="34562">$32262</data>
+                      </p>
+
+                      <p class="card-wrapper-text">
+                        <span>Raise</span>
+
+                        <data class="yellow" value="562">$560</data>
+                      </p>
+
+                      <p class="card-wrapper-text">
+                        <span>To Go</span>
+
+                        <data class="cyan" value="864">$664</data>
+                      </p>
+                    </div>
+
+                    <button class="btn btn-secondary">
+                      <span>Donation</span>
+
+                      <ion-icon
+                        name="heart-outline"
+                        aria-hidden="true"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #TESTIMONIALS
+      -->
+
+        <section class="testi">
+          <div class="testi-content">
+            <p class="section-subtitle">
+              <img
+                src="./Media/home/subtitle-img-green.png"
+                width="32"
+                height="7"
+                alt="Wavy line" />
+
+              <span>Our Testimonials</span>
+            </p>
+
+            <h2 class="h2 section-title">
+              What People Say About <strong>Our Organization</strong>
+            </h2>
+
+            <div class="testi-card">
+              <figure class="card-avatar">
+                <img
+                  src="./Media/home/testi-avatar.png"
+                  width="60"
+                  height="60"
+                  loading="lazy"
+                  alt="David S. Neuman" />
+              </figure>
+
+              <div>
+                <blockquote class="testi-text">
+                  At the heart of our mission lies the stories of lives touched
+                  and changed. People from all walks of life have experienced
+                  the impact of our work—whether it’s a family receiving
+                  essential support during difficult times , or a community
+                  coming together to build a better future. Here's what they
+                  have to say about the difference we've made:"
+                </blockquote>
+
+                <h3 class="testi-name">David S. Neuman</h3>
+
+                <p class="testi-title">Business Manager</p>
+              </div>
+            </div>
+          </div>
+
+          <figure class="testi-banner">
+            <img
+              src="./Media/home/gettyimages-1368958566-612x612.jpg"
+              width="260"
+              height="146"
+              loading="lazy"
+              alt="Rhinoceros"
+              class="img-cover" />
+          </figure>
+        </section>
+
+        <!-- 
+        - #EVENT
+      -->
+
+        <section class="section event" id="event">
+          <div class="container">
+            <p class="section-subtitle">
+              <img
+                src="./Media/home/subtitle-img-green.png"
+                width="32"
+                height="7"
+                alt="Wavy line" />
+
+              <span>Event & Program</span>
+
+              <img
+                src="./Media/home/subtitle-img-green.png"
+                width="32"
+                height="7"
+                alt="Wavy line" />
+            </p>
+
+            <h2 class="h2 section-title">
+              Our Most Popular Causes For <strong>Building Fund</strong>
+            </h2>
+
+            <ul class="event-list">
+              <li>
+                <div class="event-card">
+                  <time class="card-time" datetime="01-05">
+                    <span class="month">Jan</span>
+
+                    <span class="date">05</span>
+                  </time>
+
+                  <div class="wrapper">
+                    <div class="card-content">
+                      <p class="card-subtitle">Ocean Water</p>
+
+                      <h3 class="card-title">
+                        Far from the countries Vokalia and Consonantia 2022
+                      </h3>
+
+                      <p class="card-text">
+                        Sit amet consectetur adipiscing elit sed do eiusmod
+                        tempor
+                      </p>
+                    </div>
+
+                    <button class="btn btn-white">
+                      <span>View Events</span>
+
+                      <ion-icon
+                        name="arrow-forward"
+                        aria-hidden="true"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="event-card">
+                  <time class="card-time" datetime="02-23">
+                    <span class="month">Feb</span>
+
+                    <span class="date">23</span>
+                  </time>
+
+                  <div class="wrapper">
+                    <div class="card-content">
+                      <p class="card-subtitle">Ocean Water</p>
+
+                      <h3 class="card-title">
+                        Far from the countries Vokalia and Consonantia 2022
+                      </h3>
+
+                      <p class="card-text">
+                        Sit amet consectetur adipiscing elit sed do eiusmod
+                        tempor
+                      </p>
+                    </div>
+
+                    <button class="btn btn-white">
+                      <span>View Events</span>
+
+                      <ion-icon
+                        name="arrow-forward"
+                        aria-hidden="true"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="event-card">
+                  <time class="card-time" datetime="03-27">
+                    <span class="month">Mar</span>
+
+                    <span class="date">27</span>
+                  </time>
+
+                  <div class="wrapper">
+                    <div class="card-content">
+                      <p class="card-subtitle">Ocean Water</p>
+
+                      <h3 class="card-title">
+                        Far from the countries Vokalia and Consonantia 2022
+                      </h3>
+
+                      <p class="card-text">
+                        Sit amet consectetur adipiscing elit sed do eiusmod
+                        tempor
+                      </p>
+                    </div>
+
+                    <button class="btn btn-white">
+                      <span>View Events</span>
+
+                      <ion-icon
+                        name="arrow-forward"
+                        aria-hidden="true"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <button class="btn btn-secondary">
+              <span>Learn More Us</span>
+
+              <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+        </section>
+
+        <!-- 
+        - #INSTA POST
+      -->
+
+        <section class="insta-post">
+          <ul class="insta-post-list">
+            <li class="insta-post-item">
+              <a href="#" class="insta-post-link">
+                <img
+                  src="./Media/home/download (1).jpg"
+                  width="320"
+                  height="300"
+                  loading="lazy"
+                  class="img-cover" />
+
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li class="insta-post-item">
+              <a href="#" class="insta-post-link">
+                <img
+                  src="./Media/home/download (2).jpg"
+                  width="320"
+                  height="300"
+                  loading="lazy"
+                  class="img-cover" />
+
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li class="insta-post-item">
+              <a href="#" class="insta-post-link">
+                <img
+                  src="./Media/home/images.jfif"
+                  width="320"
+                  height="300"
+                  loading="lazy"
+                  class="img-cover" />
+
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li class="insta-post-item">
+              <a href="#" class="insta-post-link">
+                <img
+                  src="./Media/home/images (3).jfif"
+                  width="320"
+                  height="300"
+                  loading="lazy"
+                  class="img-cover" />
+
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li class="insta-post-item">
+              <a href="#" class="insta-post-link">
+                <img
+                  src="./Media/home/images (1).jpg"
+                  width="320"
+                  height="300"
+                  loading="lazy"
+                  alt="Horses"
+                  class="img-cover" />
+
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
     </main>
 
     <!-- The footer  -->
     <our-footer></our-footer>
 
     <!-- main js file for footer and header  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="./JS/main.js"></script>
   </body>
 </html>
