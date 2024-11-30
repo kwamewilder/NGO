@@ -34,7 +34,7 @@ This project was developed as part of our **System Analysis and Design** course.
 
 ## Contributors
 
-We would like to acknowledge the hard work and dedication of our team members who contributed to this project:
+We would like to express our appreciation for the hard work and dedication of our team members who contributed to this project:
 
 - **Abdelrahman Nader**  
 - **Karim Omar**  
