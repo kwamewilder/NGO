@@ -26,8 +26,9 @@ class SpecialHeader extends HTMLElement {
                     <a href="donation.html"><button  class="btn donate-btn">Donate</button></a>
                     <a href="volunteer.html"><button class="btn volunteer-btn">Volunteer</button></a>
                     <div class="profile-dropdown">
-                        <a href="profile.html"><i class="fas fa-user profile-icon"></i></a>
+                        <i class="fas fa-user profile-icon"></i>
                         <div class="profile-dropdown-content">
+                            <a href="profile.html">Profile</a>
                             <a href="login.html">Login</a>
                             <a href="create_acc.html">Create Account</a>
                             <a href="admin.html">Admin page</a>
@@ -87,10 +88,10 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
   // const email = document.getElementById('email').value;
   // const message = document.getElementById('message').value;
 
-  // // Here you would typically send this data to your server
+  // Here you would typically send this data to your server
   // console.log('Form submitted:', { name, email, message });
 
-  // // Clear the form
+  // Clear the form
   this.reset();
 
   // Show success message
