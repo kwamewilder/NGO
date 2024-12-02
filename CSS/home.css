@@ -110,8 +110,11 @@ a {
   color: inherit;
 }
 
+img {
+  display: block;
+}
+
 a,
-img,
 span,
 time,
 input,
@@ -1232,7 +1235,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 2rem;
+  padding: 1.5rem 3rem;
   background-color: var(--body);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -1244,6 +1247,7 @@ body {
 
 .logo-img {
   height: 40px;
+  display: inline-block;
 }
 
 .nav-links {
@@ -1305,6 +1309,11 @@ body {
   background-color: var(--button2);
   color: var(--dbgText);
 }
+.donate-btn,
+.volunteer-btn {
+  font-size: 1.4rem;
+  padding: 0.4rem 1.45rem;
+}
 
 .btn:hover {
   opacity: 0.9;
@@ -1318,7 +1327,7 @@ body {
 }
 
 .profile-icon {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   color: var(--wbgText);
 }
 
