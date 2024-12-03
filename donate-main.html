@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate - Char-E-T</title>
+    <link rel="shortcut icon" href="./Media/favicon.ico" type="image/svg+xml" />
+
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/donate-main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  </head>
+  <body>
+    <our-header></our-header>
+
+    <main>
+      <div class="page-header">
+        <h1>Make a Donation</h1>
+        <p>Choose how you'd like to support our cause</p>
+      </div>
+
+      <div class="donation-cards">
+        <div class="donation-card">
+          <div class="card-icon">
+            <i class="fas fa-money-bill-wave"></i>
+          </div>
+          <h2>Donate Money</h2>
+          <p>
+            Support our cause with a monetary donation. Choose between cash
+            collection or online payment.
+          </p>
+          <div class="donation-options" id="moneyOptions">
+            <button class="btn donate-btn" onclick="showDonationForm('cash')">
+              Donate Cash
+            </button>
+            <a href="donateOnline.html">
+              <button class="btn donate-btn">Donate Online</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="donation-card">
+          <div class="card-icon">
+            <i class="fas fa-tshirt"></i>
+          </div>
+          <h2>Donate Clothes</h2>
+          <p>
+            Donate new or gently used clothing to help those in need stay warm
+            and dignified.
+          </p>
+          <a href="clothes.html" class="btn donate-btn">Donate Clothes</a>
+        </div>
+
+        <div class="donation-card">
+          <div class="card-icon">
+            <i class="fas fa-box-open"></i>
+          </div>
+          <h2>Donate Supplies</h2>
+          <p>
+            Contribute essential supplies like medical equipment, school
+            materials, or household items.
+          </p>
+          <a href="supplies.html" class="btn donate-btn">Donate Supplies</a>
+        </div>
+      </div>
+
+      <!-- Modal for Cash Donation -->
+      <div id="cashModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Cash Donation</h2>
+          <form id="cashDonationForm">
+            <div class="form-group">
+              <label for="cashName">Full Name</label>
+              <input type="text" id="cashName" required />
+            </div>
+            <div class="form-group">
+              <label for="cashPhone">Phone Number</label>
+              <input type="tel" id="cashPhone" required />
+            </div>
+            <div class="form-group">
+              <label for="cashAddress">Collection Address</label>
+              <textarea id="cashAddress" required></textarea>
+            </div>
+            <div class="form-group">
+              <label for="cashAmount">Donation Amount</label>
+              <input type="number" id="cashAmount" min="1" required />
+            </div>
+            <div class="form-group">
+              <label for="cashPreferredTime">Preferred Collection Time</label>
+              <input type="datetime-local" id="cashPreferredTime" required />
+            </div>
+            <button type="submit" class="btn donate-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Modal for Online Donation -->
+      <!-- <div id="onlineModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Online Donation</h2>
+          <form id="onlineDonationForm">
+            <div class="form-group">
+              <label for="cardName">Name on Card</label>
+              <input type="text" id="cardName" required />
+            </div>
+            <div class="form-group">
+              <label for="cardNumber">Card Number</label>
+              <input type="text" id="cardNumber" maxlength="16" required />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cardExpiry">Expiry Date</label>
+                <input
+                  type="text"
+                  id="cardExpiry"
+                  placeholder="MM/YY"
+                  maxlength="5"
+                  required />
+              </div>
+              <div class="form-group">
+                <label for="cardCVV">CVV</label>
+                <input type="text" id="cardCVV" maxlength="3" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="donationAmount">Donation Amount</label>
+              <input type="number" id="donationAmount" min="1" required />
+            </div>
+            <button type="submit" class="btn donate-btn">Donate Now</button>
+          </form>
+        </div>
+      </div> -->
+    </main>
+
+    <our-footer></our-footer>
+
+    <script src="./JS/main.js"></script>
+    <script src="./JS/donate-main.js"></script>
+  </body>
+</html>

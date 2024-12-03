@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate Supplies - Char-E-T</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/svg+xml" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/donate-main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  </head>
+  <body>
+    <our-header></our-header>
+
+    <main>
+      <div class="page-header">
+        <h1>Donate Supplies</h1>
+        <p>Support our cause with essential supplies and materials</p>
+      </div>
+
+      <div class="donation-form-container">
+        <form id="suppliesDonationForm" class="donation-form">
+          <div class="form-group">
+            <label for="donorName">Full Name</label>
+            <input type="text" id="donorName" required />
+          </div>
+          <div class="form-group">
+            <label for="donorPhone">Phone Number</label>
+            <input type="tel" id="donorPhone" required />
+          </div>
+          <div class="form-group">
+            <label for="donorEmail">Email Address</label>
+            <input type="email" id="donorEmail" required />
+          </div>
+          <div class="form-group">
+            <label for="pickupAddress">Pickup Address</label>
+            <textarea id="pickupAddress" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="supplyType">Type of Supplies</label>
+            <select id="supplyType" required>
+              <option value="">Select supply type</option>
+              <option value="medical">Medical Supplies</option>
+              <option value="educational">Educational Materials</option>
+              <option value="household">Household Items</option>
+              <option value="hygiene">Hygiene Products</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="suppliesDescription">Description of Supplies</label>
+            <textarea
+              id="suppliesDescription"
+              placeholder="Please describe the types and quantities of supplies you're donating"
+              required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="condition">Condition of Supplies</label>
+            <select id="condition" required>
+              <option value="">Select condition</option>
+              <option value="new">New</option>
+              <option value="likenew">Like New</option>
+              <option value="good">Good</option>
+              <option value="fair">Fair</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="pickupDate">Preferred Pickup Date</label>
+            <input type="date" id="pickupDate" required />
+          </div>
+          <div class="form-group">
+            <label for="pickupTime">Preferred Pickup Time</label>
+            <select id="pickupTime" required>
+              <option value="">Select a time slot</option>
+              <option value="morning">Morning (9AM - 12PM)</option>
+              <option value="afternoon">Afternoon (12PM - 4PM)</option>
+              <option value="evening">Evening (4PM - 7PM)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="additionalNotes">Additional Notes</label>
+            <textarea
+              id="additionalNotes"
+              placeholder="Any special instructions or notes for pickup"></textarea>
+          </div>
+          <button type="submit" class="btn donate-btn">Submit Donation</button>
+        </form>
+      </div>
+    </main>
+
+    <our-footer></our-footer>
+
+    <script src="./JS/main.js"></script>
+    <script src="./JS/supplies.js"></script>
+  </body>
+</html>

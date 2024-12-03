@@ -23,7 +23,7 @@ class SpecialHeader extends HTMLElement {
                     <li><a href="services.html">Services</a></li>
                 </ul>
                 <div class="nav-buttons">
-                    <a href="donation.html"><button  class="btn donate-btn">Donate</button></a>
+                    <a href="donate-main.html"><button  class="btn donate-btn">Donate</button></a>
                     <a href="volunteer.html"><button class="btn volunteer-btn">Volunteer</button></a>
                     <div class="profile-dropdown">
                         <i class="fas fa-user profile-icon"></i>
