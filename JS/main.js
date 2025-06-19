@@ -7,7 +7,7 @@ class SpecialHeader extends HTMLElement {
         <header>
             <nav class="navbar">
             <div class="logo">
-            <a href="index.html"><img src="./Media/logo.svg" alt="Char-E-T Logo" class="logo-img"></a>
+            <a href="index.html"><img src="./Media/logo.svg" alt="NGO Logo" class="logo-img"></a>
             </div>
             <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
@@ -45,12 +45,12 @@ class SpecialFooter extends HTMLElement {
         <footer>
         <div class="footer-content">
             <div class="footer-info">
-            <img src="./Media/logo.svg" alt="Char-E-T Logo" class="footer-logo">
+            <img src="./Media/logo.svg" alt="NGO Logo" class="footer-logo">
                 <div class="contact-info">
                     <h3>Contact Information</h3>
-                    <p><i class="fas fa-map-marker-alt"></i> 123 Charity Street, City, Country</p>
-                    <p><i class="fas fa-phone"></i> +1 234 567 890</p>
-                    <p><i class="fas fa-envelope"></i> info@char-e-t.org</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Ngo Street, Accra, Ghana</p>
+                    <p><i class="fas fa-phone"></i> +233 234 567 890</p>
+                    <p><i class="fas fa-envelope"></i> info@NGO.org</p>
                 </div>
             </div>
             
@@ -71,7 +71,7 @@ class SpecialFooter extends HTMLElement {
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 Char-E-T. All rights reserved.</p>
+            <p>&copy; 2025 NGO. All rights reserved.</p>
             </div>
     </footer>`;
   }
